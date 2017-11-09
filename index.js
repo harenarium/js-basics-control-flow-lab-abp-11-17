@@ -7,13 +7,13 @@ function scuberGreetingForFeet(feet){
   }else if(feet>2500){
     return 'No can do.'
   }
-  
-} 
+
+}
 
 
 function ternaryCheckCity(city){
   return city==='NYC' ? "Ok, sounds good." : "No go."
-} 
+}
 
 
 function switchOnCharmFromTip(quality){
@@ -26,13 +26,8 @@ function switchOnCharmFromTip(quality){
       return 'bye'
 
   }
-} 
+}
 
 
-  it('should return generous' if anything else', function () {
-    expect(switchOnCharmFromTip('thanks for everything')).to.equal('Bye.');
-  });
-});
-});
 
 */
